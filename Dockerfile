@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:12.6
 
 RUN apt-get update -qq && apt-get install iputils-ping netcat curl gnupg procps -y
 
